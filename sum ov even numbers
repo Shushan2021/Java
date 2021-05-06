@@ -1,0 +1,16 @@
+   public class HelloWorld {
+    public static void main(String[] args) {
+    
+    //4) Գրել ծրագիր, որը կվերադարձնի զանգվածի զույգ էլեմենտների գումարը։
+
+    int[] even = new int[]{8, 2, 1, 16};
+        sum = 0;
+        for (int i = 0; i < even.length; i++) {
+            if (even[i] % 2 == 0) {
+                sum = sum + even[i];
+            }
+            }
+            System.out.println(sum);
+
+        }
+    }
