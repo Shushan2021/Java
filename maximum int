@@ -1,0 +1,8 @@
+public class HelloWorld {
+    public static void main(String[] args) {
+        //1) Գրել ծրագիր, որը կվերադարձնի 2 թվերից մեծի արժեքը։
+        int a = 5;
+        int b = 14;
+        System.out.println(Math.max(a, b));
+        }
+        }
