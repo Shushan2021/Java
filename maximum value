@@ -1,0 +1,16 @@
+    public class HelloWorld {
+    public static void main(String[] args) {
+
+ //3) Գրել ծրագիր, որը կվերադարձնի զանգվածի մեծագույն արժեքը։
+        //սա էլ գուգլի օգնությամբ գրեցի, ես մի փոքր այլ ձևով էի գրում։ Դասի ժամանակ կհարցնեմ։
+
+
+            int[] numbers = {2, 125, 16, 54};
+            int max = 0;
+            for (int i = 1; i < numbers.length; i++) {
+                max = Math.max(max, numbers[i]);
+                }
+            System.out.println(max);
+            }
+            }
+            
