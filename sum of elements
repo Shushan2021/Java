@@ -1,0 +1,17 @@
+//2) Գրել ծրագիր, որը կհաշվի զանգվածի էլեմենտների գումարը։
+        int[] x = new int [] {28, 20, 1,};
+        int sum = 0;
+        sum = 0;
+        for (int i = 0; i < x.length; i++) {
+            sum = sum + x[i];
+        }
+        System.out.println(sum);
+
+
+        //հաջորդ տարբերակը Յութուբից եմ օգտվել, բայց չեմ հասկանում ինչի ա կրկնակին գտնում
+
+        for (int y : x) {
+            sum = sum + y;
+        }
+        System.out.println(sum);
+        }
